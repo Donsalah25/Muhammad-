@@ -1,0 +1,51 @@
+body {
+    background: #6257adef;
+    height: 200vh;
+    margin: 0px;
+}
+#vid {
+            background: url("./tik.jpg");
+            height: 125vh;
+            background-repeat: repeat;
+            background-size: cover;
+            background-position: center;
+            width: 100%;
+            color: #fff;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 125vh;
+            margin: 0px 0px 0px 0px;
+            border-radius: 20px;
+            border: translucent;
+}
+
+        #player {
+            width: 300px;
+            text-align: center;
+        }
+
+        audio {
+            width: 100%;
+            margin-top: 10px;
+        }
+     .navbar {
+         background: #ff2b5fde;
+         padding: 10px;
+     }
+     .navbar ul {
+         display: flex;
+         justify-content: space-between;
+     }
+     .navbar li{
+         list-style-type: none;
+         justify-content: space-around;
+     }
+     .navbar a{
+         text-decoration: none;
+     }
+     .navbar first li{
+         margin-left: 2px;
+     }
